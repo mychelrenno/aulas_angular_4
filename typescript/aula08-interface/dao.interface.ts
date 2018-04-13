@@ -1,4 +1,5 @@
 export interface DaoInterface {
+
     tableName: string;
 
     insert(Object: any): boolean;
