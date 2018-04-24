@@ -6,7 +6,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 const core_1 = require("@angular/core");
+const contatos_mock_1 = require("./contatos-mock");
 let ConatosListaComponent = class ConatosListaComponent {
+    constructor() {
+        this.contatos = contatos_mock_1.CONTATOS;
+    }
 };
 ConatosListaComponent = __decorate([
     core_1.Component({
