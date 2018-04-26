@@ -3,3 +3,6 @@ node types.js = executa arquivo
 npm install = instala as dependencias do projeto
 npm start = inicia a aplicação
 npm install bootstrap --save
+
+
+npm start -> inicia a aplicação
